@@ -17,8 +17,8 @@ ul
     display: grid;
     overflow: auto;
     height: 100vh;
-    grid-template-columns: 170px 1fr 190px;
-    grid-template-rows: 35px 1fr 15% 6%;
+    grid-template-columns: 19% 58% 23%;
+    grid-template-rows: 5% 81% 10% 6%;
 }
 
 .header
