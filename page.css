@@ -1,0 +1,68 @@
+* body {
+    padding: 0;
+    margin: 0;
+}
+
+.conatiner {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 30% 1fr 35%;
+    grid-template-rows: 6% 1fr 10%
+    /*grid-template-areas:
+    "header header header"
+    "nav main main"
+    "nav main main"
+    "nav footer footer"*/
+
+}
+
+.main {
+    grid-area: main;
+}
+
+
+.header {
+    background-color: blue;
+    grid-area: header;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.main {
+    grid-area: main;
+
+}
+.heading_1 {
+    grid-area: head1;
+}
+.heading_2 {
+    grid-area: head2;
+}
+.heading_3 {
+    grid-area: head3;
+}
+.adg1 {
+    grid-area: adg1;
+}
+
+.adg2 {
+    grid-area: adg2;
+}
+
+.adg3 {
+    grid-area: adg3;
+
+
+.page-links {
+    grid-area: pl;
+}
+
+.foot{
+    grid-area: foot;
+}
+
+.littlefoot {
+    grid-area: lf;
+}
