@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     background-color: black;
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul
@@ -14,6 +15,7 @@ ul
 .outside_nav li
 {
     display: inline-block;
+
 }
 
 .container {
@@ -41,6 +43,7 @@ header
 {
     background-color: white;
     color: black;
+    padding: 1em;
 }
 
 .nav
@@ -48,6 +51,40 @@ header
     background-color: #f0f0f0;
     grid-area: 2/1/6/2;
     font-size: 10px;
+    padding-left: 1em;
+
+}
+
+.menu {
+    font-weight: bold;
+}
+
+nav li {
+    padding: 1em;
+    font-size: 12px;
+}
+
+.nav a {
+    text-decoration: none;
+    color:black;
+
+}
+
+.nav li:hover {
+    background-color: black;
+    padding: 1em;
+    color: white;
+
+}
+
+
+h2 {
+    color: #609085;
+}
+
+.logo {
+    background-color:#343434;
+    padding: 1em;
 }
 
 main
@@ -56,14 +93,24 @@ main
     grid-area: 2/2/3/3;
     text-align: left;
     padding-left: 10px;
-    overflow: auto;
-
 }
+
+
+.heading_1 .heading_2 .heading_3 {
+    padding-right: 20px;
+}
+
+
 
 .le-ads
 {
     background-color: white;
     grid-area: 2/3/4/4;
+
+}
+
+p {
+    font-size: 10px;
 }
 
 .page-links {
@@ -71,11 +118,16 @@ main
     background-color: white;
     font-size: 12px;
     display: flex;
-    /*justify-content: ;*/
-    /*margin-left: auto;*/
-    padding-left: 500px;
-    justify-content: space-evenly;
+    padding-left:100px;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 60px;
+}
+
+.page-links a {
+    padding: 10px;
+    color: black;
+
 }
 
 .sasquatch
@@ -83,6 +135,7 @@ main
     background-color: grey;
     color: white;
     grid-area: 4/2/5/4;
+    padding-left:10px;
 }
 
 .littlefoot
@@ -90,6 +143,7 @@ main
     background-color: #343434;
     color: white;
     grid-area: 5/2/6/4;
+    padding-left: 10px;
 }
 
 .bogus{
@@ -150,16 +204,18 @@ img {
     height:6px;
 }
 
-a
-{
 
-}
-
-a:hover{
+.page-links a:hover{
     color:white;
     background-color: black;
     padding: 8px;
 }
 
 
+a {
+    text-decoration: none;
+}
 
+.outside_nav a {
+    color:white;
+}
