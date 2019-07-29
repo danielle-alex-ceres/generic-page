@@ -138,6 +138,11 @@ p {
     color: white;
     grid-area: 4/2/5/4;
     padding-left:10px;
+
+}
+
+.sasquatch p {
+    font-size: 18px;
 }
 
 .littlefoot
@@ -147,6 +152,7 @@ p {
     grid-area: 5/2/6/4;
     padding-left: 10px;
 }
+
 
 .bogus{
     color: white;
