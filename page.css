@@ -19,6 +19,10 @@ ul
 
 }
 
+.outside_nav a {
+    padding: .5em;
+}
+
 .container {
     display: grid;
     height: 100vh;
@@ -44,6 +48,11 @@ header
 {
     background-color: white;
     color: black;
+
+}
+
+.logo a:hover {
+    background-color: lightgray;
     padding: 1em;
 }
 
